@@ -1,0 +1,37 @@
+import _AUTOUI from "../../autoui/_MODULE/_AUTOUI";
+import UIFrame from "../../framework/ui/UIFrame";
+
+const { ccclass, menu, property } = cc._decorator;
+
+@ccclass
+@menu("UI/_MODULE/_UINAME")
+export default class _UINAME extends UIFrame {
+	ui: _AUTOUI = null;
+
+	protected static prefabUrl = "_PREFABPATH";
+	protected static className = "_UINAME";
+
+	onLoad() {
+		this.ui = this.node.addComponent(_AUTOUI);
+	}
+
+	start() {
+
+	}
+
+	onEnable() {
+
+	}
+
+	update() {
+
+	}
+
+	onDisable() {
+
+	}
+
+	onDestroy() {
+		
+	}
+}
