@@ -48,7 +48,7 @@ export default abstract class ListItem extends cc.Component {
     selectedLabel: cc.Node = null;
     //被选中的颜色
     @property({
-        type: cc.Color, 
+        // type: cc.Color, 
         tooltip: CC_DEV && '被选择的字体颜色',
         visible() { return this.selectedMode > SelectedType.NONE }
     })

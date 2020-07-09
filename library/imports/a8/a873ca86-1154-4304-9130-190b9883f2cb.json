@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "protobuf.d",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "export as namespace protobuf;\nexport * from \"./protobuf.min\";"
+}
