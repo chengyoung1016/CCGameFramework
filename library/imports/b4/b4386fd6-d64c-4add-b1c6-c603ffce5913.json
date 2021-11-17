@@ -1,7 +1,0 @@
-{
-  "__type__": "cc.TextAsset",
-  "_name": "JwtSimple.d",
-  "_objFlags": 0,
-  "_native": "",
-  "text": "export type TAlgorithm = 'HS256' | 'HS384' | 'HS512' | 'RS256';\n\nexport interface IOptions {\n  header: any;\n}\n\nexport function decode(token: string, key: string, noVerify?: boolean, algorithm?: TAlgorithm): any;\n\nexport function encode(payload: any, key: string, algorithm?: TAlgorithm, options?: IOptions): string;"
-}
